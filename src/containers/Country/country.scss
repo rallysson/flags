@@ -1,0 +1,57 @@
+.country {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  input {
+    width: calc(100% - 24px);
+    border: none;
+    box-shadow: 0 0 5px silver;
+    margin-bottom: 12px;
+    padding: 12px;
+  }
+
+  button[type="submit"] {
+    padding: 16px;
+    background-color: green;
+    color: white;
+    width: 100%;
+  }
+
+  label {
+    margin-bottom: 12px;
+  }
+}
+
+.form__edit {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.country__description {
+  margin: 12px;
+  align-self: flex-start;
+  font-size: 1rem;
+  position: relative;
+}
+
+.country__imageContainer {
+  max-width: 400px;
+  img {
+    width: 100%;
+  }
+}
+
+.country__name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.country__edit {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 0;
+  top: 0;
+}

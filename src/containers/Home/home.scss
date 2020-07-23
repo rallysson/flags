@@ -1,0 +1,41 @@
+.home {
+  padding: 20px;
+  min-height: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__loader {
+  align-self: center;
+}
+
+.home__itemsQuantidade {
+  margin-bottom: 8px;
+  color: #a8a8a8;
+  font-size: 0.9rem;
+}
+
+.home__flagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home__search {
+  background-image: url("../../assets/icons/search-icon.svg");
+  background-position: 9px 10px;
+  background-repeat: no-repeat;
+  line-height: 40px;
+  min-width: 300px;
+  border: none;
+  box-shadow: 0 0 5px silver;
+  margin-bottom: 12px;
+  padding-left: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  .home {
+    padding: 12px;
+  }
+}
